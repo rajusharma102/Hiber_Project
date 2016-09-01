@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.hibernate.core.Employee" table="emp1012">
+		<id name="emp_id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="emp_Name"></property>
+		<property name="emp_country"></property>
+		<property name="pincode"></property>
+	</class>
+
+</hibernate-mapping>  
